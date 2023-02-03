@@ -3,11 +3,13 @@ impl Solution {
        let digit_square_sum = |mut n: i32| -> i32 {
            let mut sum = 0;
            let mut digit = 0;
+
            while n > 0 {
                digit = n % 10;
                sum += digit * digit;
                n /= 10;
            }
+
            sum
        };
 
