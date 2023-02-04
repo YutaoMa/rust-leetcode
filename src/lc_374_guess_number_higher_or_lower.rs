@@ -1,3 +1,10 @@
+#![allow(unused_variables)]
+use crate::Solution;
+
+fn guess(n: i32) -> i32 {
+    unimplemented!()
+}
+
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -8,7 +15,7 @@
  */
 
 impl Solution {
-    unsafe fn guessNumber(n: i32) -> i32 {
+    pub fn guess_number(n: i32) -> i32 {
         let mut lo = 1;
         let mut hi = n;
 

@@ -1,3 +1,5 @@
+use crate::Solution;
+
 impl Solution {
     pub fn generate_parenthesis(n: i32) -> Vec<String> {
         let mut ans = Vec::new();
@@ -14,7 +16,7 @@ impl Solution {
 
             generate_step(str.clone() + "(", l + 1, r, n, ans);
             generate_step(str.clone() + ")", l, r + 1, n, ans);
-        };
+        }
 
         generate_step("".to_string(), 0, 0, n, &mut ans);
 

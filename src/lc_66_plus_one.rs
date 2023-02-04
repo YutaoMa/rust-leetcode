@@ -1,7 +1,7 @@
+use crate::Solution;
+
 impl Solution {
     pub fn plus_one(mut digits: Vec<i32>) -> Vec<i32> {
-        let carry_over = false;        
-
         for digit in digits.iter_mut().rev() {
             match *digit == 9 {
                 false => {

@@ -1,5 +1,7 @@
+use crate::Solution;
+
 impl Solution {
-    pub fn hammingWeight (mut n: u32) -> i32 {
+    pub fn hamming_weight (mut n: u32) -> i32 {
         // Solution 1
         // n.count_ones() as i32       
 

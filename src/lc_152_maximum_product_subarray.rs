@@ -1,3 +1,5 @@
+use crate::Solution;
+
 impl Solution {
     pub fn max_product(nums: Vec<i32>) -> i32 {
         let mut product = nums[0];
@@ -5,7 +7,7 @@ impl Solution {
         let mut min = product;
 
         for i in 1..nums.len() {
-            if (nums[i] < 0) {
+            if nums[i] < 0 {
                 std::mem::swap(&mut max, &mut min);
             }
 
