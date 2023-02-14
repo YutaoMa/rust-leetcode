@@ -1,14 +1,17 @@
 pub struct Solution;
 
 pub mod lc_1_two_sum;
+pub mod lc_2_add_two_numbers;
 pub mod lc_5_longest_palindromic_substring;
 pub mod lc_9_palindrome_number;
 pub mod lc_22_generate_parentheses;
 pub mod lc_42_trapping_rain_water;
+pub mod lc_53_maximum_subarray;
 pub mod lc_66_plus_one;
 pub mod lc_78_subsets;
 pub mod lc_98_validate_binary_search_tree;
 pub mod lc_104_maximum_depth_of_binary_tree;
+pub mod lc_105_construct_binary_tree_from_preorder_and_inorder_traversal;
 pub mod lc_139_word_break;
 pub mod lc_152_maximum_product_subarray;
 pub mod lc_191_number_of_1_bits;
